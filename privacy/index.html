@@ -25,7 +25,7 @@
 
 <h2>1. 基本方針</h2>
 <p>本アプリは、開発者のサーバーで<strong>個人を特定できる情報を収集しません</strong>。アカウント登録は不要です。
-本アプリには<strong>広告は表示されず</strong>、他社のアプリやウェブサイトをまたいだ<strong>トラッキングは行わず</strong>、広告識別子（IDFA）も利用しません。利用状況の計測も行いません。</p>
+本アプリには<strong>広告は表示されず</strong>、他社のアプリやウェブサイトをまたいだ<strong>トラッキングは行わず</strong>、広告識別子（IDFA）も利用しません。利用状況の把握には匿名の計測サービス Aptabase を使います（4-3）。</p>
 
 <h2>2. 端末と iCloud に保存する情報</h2>
 <p>引いたカード（図鑑）、しおりの枚数、デッキ、対戦の勝敗、レート、言語の設定は、お使いの端末の中に保存されます。iCloud にサインインしている場合は、機種変更のあとも続きから遊べるように、同じ内容（言語の設定を除く）がお使いの iCloud（Apple の CloudKit の<strong>プライベートデータベース</strong>）にも保存されます。ここはご本人だけが読める場所で、開発者からは見えません。レート戦・ルーム戦に参加した場合を除き（第3章）、第三者に送られることもありません。</p>
@@ -46,6 +46,11 @@
 <p>Game Center にサインインしている場合、レート、集めたことばの数、実績が Apple の Game Center に送られ、ランキングとして他の利用者に表示されます。ルーム戦の招待と通信にも Game Center を使います。
 Game Center の情報は Apple が管理し、<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Appleのプライバシーポリシー</a>に従います。</p>
 
+<h2>4-3. 利用状況の計測（Aptabase）</h2>
+<p>アプリの改善のため、匿名の利用状況を計測サービス <a href="https://aptabase.com/legal/privacy" target="_blank" rel="noopener">Aptabase</a> に送ります。
+送るのは「どのタブを開いた」「ガチャを何回引いた」「対戦が終わった（勝ち・負け）」「購入が完了した」といった操作の種類と回数、アプリのバージョン・OS のバージョン・機種・言語です。
+引いたカードの文字、デッキの中身、名前、Game Center の ID は送りません。端末や個人を特定する識別子は含まれず、セッションの ID は起動のたびに変わり、IP アドレスは保存されません。</p>
+
 <h2>5. お子様のプライバシー</h2>
 <p>本アプリは幅広い年齢の方が使えることばのゲームです。開発者は年齢を問わず個人情報を収集しません。対戦で送られる情報に、自由に入力した文章や画像は含まれません。</p>
 
@@ -65,7 +70,7 @@ Game Center の情報は Apple が管理し、<a href="https://www.apple.com/leg
 
 <h2>1. Our Policy</h2>
 <p>The App <strong>does not collect personally identifiable information</strong> on the developer’s servers. No account is required.
-The App <strong>shows no ads</strong>, <strong>does not track you</strong> across other companies’ apps or websites, does not use your advertising identifier (IDFA), and collects no usage statistics.</p>
+The App <strong>shows no ads</strong>, <strong>does not track you</strong> across other companies’ apps or websites, and does not use your advertising identifier (IDFA). Anonymous usage statistics are collected with Aptabase (Section 4-3).</p>
 
 <h2>2. Information Stored on Your Device and in iCloud</h2>
 <p>Your collection of cards, bookmark counts, deck, battle record, rating and language setting are stored on your device. If you are signed in to iCloud, the same data (except the language setting) is also saved to your iCloud (the <strong>private database</strong> of Apple CloudKit) so that you can continue on a new device. Only you can read it; the developer cannot see it. Except when you join rated or room matches (Section 3), it is never sent to third parties.</p>
@@ -85,6 +90,11 @@ The App <strong>shows no ads</strong>, <strong>does not track you</strong> acros
 <h2>4-2. Game Center</h2>
 <p>If you are signed in to Game Center, your rating, the number of words you have collected and your achievements are sent to Apple’s Game Center and shown to other players on leaderboards. Game Center is also used for room-match invitations and networking.
 Game Center data is managed by Apple under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple’s Privacy Policy</a>.</p>
+
+<h2>4-3. Usage Statistics (Aptabase)</h2>
+<p>To improve the App, anonymous usage statistics are sent to <a href="https://aptabase.com/legal/privacy" target="_blank" rel="noopener">Aptabase</a>.
+What is sent is the kind and number of actions — such as which tab was opened, how many gacha draws were made, that a match ended (win or loss), or that a purchase was completed — together with the app version, OS version, device model and language.
+The letters on your cards, the contents of your deck, your name and your Game Center ID are not sent. No identifier of your device or of you is included, the session ID changes on every launch, and IP addresses are not stored.</p>
 
 <h2>5. Children’s Privacy</h2>
 <p>The App is a word game for a wide range of ages. The developer does not collect personal information from anyone, regardless of age. Information sent for matches never contains free-form text or images.</p>
