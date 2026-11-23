@@ -7,7 +7,7 @@
 - `/terms/` — 利用規約（日英。課金とさんもじパスの条項を含む）
 - `/tokushoho/` — 特定商取引法に基づく表記（販売事業者の氏名・住所は「請求があれば開示」の形）
 
-公開URL（予定）: https://non-migi.github.io/sanmoji-legal/
+公開URL: https://non-migi.github.io/sanmoji-legal/
 
 ## メモ
 
